@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(170, 143, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color: rgb(40, 12, 66);
+    color: whitesmoke;
+    height: 50px;
+}
+nav h2{
+    padding: 10px;
+    padding-left: 45%;
+}
+.container{
+    padding: 150px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(40, 12, 66);
+}
+#message{
+    padding-left: 420px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+#alert{
+    padding-left: 460px;
+    padding-top: 20px;
+    font-size: 30px;
+}
